@@ -1,7 +1,7 @@
 export function LoginFromPublisher() {
   window.arenaSSO.authenticate({
-    id: "234567",
-    email: "kristin.mckinney@example.com.br",
+    id: "2345673432",
+    email: "kristin.mckinney@example.br",
     picture: "https://randomuser.me/api/portraits/women/12.jpg",
     name: "Kristin Mckinney",
     customProps: [
@@ -37,8 +37,8 @@ export function startArenaSSO(onSignin, onSignout, isLogin) {
   
   if(isLogin) {
     window.arenaSSO.authenticate({
-      id: "234567",
-      email: "kristin.mckinney@example.com.br",
+      id: "2345673432",
+      email: "kristin.mckinney@example.br",
       picture: "https://randomuser.me/api/portraits/women/12.jpg",
       name: "Kristin Mckinney",
       customProps: [
