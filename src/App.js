@@ -23,7 +23,7 @@ function App() {
             </Switch>
           </div>
         </Router>
-        <div className="arena-chat" data-publisher="creative" data-chatroom="vwne" data-position="bottom"></div>
+        <div class="arena-liveblog" data-publisher="creative" data-event="hpkr" data-version="2"></div>
       </div>
   );
 }
