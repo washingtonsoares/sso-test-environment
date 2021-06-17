@@ -3,7 +3,17 @@ export function LoginFromPublisher() {
     id: "234567",
     email: "kristin.mckinney@example.com.br",
     picture: "https://randomuser.me/api/portraits/women/12.jpg",
-    name: "Kristin Mckinney"
+    name: "Kristin Mckinney",
+    customProps: [
+      {
+        label: 'country',
+        value: 'United Kindom'
+      },
+      {
+        label: 'city',
+        value: 'Manchester'
+      }
+    ]
   });
 };
 
@@ -30,7 +40,17 @@ export function startArenaSSO(onSignin, onSignout, isLogin) {
       id: "234567",
       email: "kristin.mckinney@example.com.br",
       picture: "https://randomuser.me/api/portraits/women/12.jpg",
-      name: "Kristin Mckinney"
+      name: "Kristin Mckinney",
+      customProps: [
+        {
+          label: 'country',
+          value: 'United Kindom'
+        },
+        {
+          label: 'city',
+          value: 'Manchester'
+        }
+      ]
     });
   }
 }
