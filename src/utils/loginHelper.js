@@ -1,9 +1,9 @@
 export function LoginFromPublisher() {
   window.arenaSSO.authenticate({
-    id: "2345",
-    email: "kristin.mckinney@example.com",
+    id: "234567",
+    email: "kristin.mckinney@example.com.br",
     picture: "https://randomuser.me/api/portraits/women/12.jpg",
-    name: "Kristin Mckinney",
+    name: "Kristin Mckinney"
   });
 };
 
@@ -27,10 +27,10 @@ export function startArenaSSO(onSignin, onSignout, isLogin) {
   
   if(isLogin) {
     window.arenaSSO.authenticate({
-      id: "2345",
-      email: "kristin.mckinney@example.com",
+      id: "234567",
+      email: "kristin.mckinney@example.com.br",
       picture: "https://randomuser.me/api/portraits/women/12.jpg",
-      name: "Kristin Mckinney",
+      name: "Kristin Mckinney"
     });
   }
 }

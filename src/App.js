@@ -23,8 +23,8 @@ function App() {
             </Switch>
           </div>
         </Router>
-        <div className="arena-liveblog" data-publisher="creative" data-event="yisx" data-version="2"></div>
-    </div>
+        <div className="arena-chat" data-publisher="creative" data-chatroom="vwne" data-position="bottom"></div>
+      </div>
   );
 }
 export default App;

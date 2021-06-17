@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react'
 import { LogoutFromPublisher, LoginFromPublisher, startArenaSSO } from '../../utils/loginHelper.js'
 import LoginLogoutButton from '../Atoms/LoginLogoutButton'
