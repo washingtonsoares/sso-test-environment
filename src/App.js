@@ -4,7 +4,6 @@ import UserLogged from './components/Organisms/UserLogged'
 import Navbar from './components/Atoms/Navbar'
 
 function App() {
-
   return (
     <div className="App">
       <Router>
@@ -23,7 +22,7 @@ function App() {
             </Switch>
           </div>
         </Router>
-        <div class="arena-chat" data-publisher="qa-publisher" data-chatroom="mpgs" data-position="bottom"></div>
+        <div className="arena-chat" data-publisher="globoesporte" data-chatroom="5sb4" data-position="bottom"></div>
       </div>
   );
 }
